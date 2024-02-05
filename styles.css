@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: rgb(112, 237, 241);
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head .logo {
+    
+}
+
+.head .menu-container {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+}
+
+.head .menu {
+    margin-left: 20px; 
+}
+
+
+.body {
+    display: flex;
+    flex-direction: row;
+}
+
+.Container1 {
+    margin-top: 30px;
+    margin-left: 1px;
+    background-color: white;
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    border: 2px solid;
+    height: 450px;
+    width: 300px;
+}
+.Body1{
+    margin: 0px;
+    background-color: rgb(118, 40, 243);
+    height: 150px;
+    width: 300px; 
+}
+.Text{
+    margin: 30px;
+    margin-left: 30px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    height: 80px;
+    width: 220px;
+}
+.Container2{
+    
+}
+
+.body-4-container {
+    background-color: rgb(231, 95, 32);
+    margin: 30px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    height: 300px;
+    width: 1020px;
+}
+
+.Container-3{
+    margin: 30px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 120px;
+    width: 1020px  
+}
+.Body3{
+    margin: 0px;
+    background-color: rgb(241, 86, 164);
+    border: 2px solid;
+    height: 120px;
+    width: 318px; 
+}
+.section-5-container{
+    margin-right: 30px;
+}
+.section-6-container{
+    margin-right: 30px;
+}
+.section-7-container{
+    margin:0px
+}
+.Rubrik{
+    margin: 30px;
+    margin-left: 30px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    height: 60px;
+    width: 250px;
+}
+
+.Footer {
+    background-color: rgb(112, 237, 241);
+    color:black;
+    text-align: center;
+    padding: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
